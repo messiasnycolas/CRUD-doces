@@ -1,38 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+body {
+  margin: 0;
+
+  background-color: rgb(39, 39, 39);
+}
 .App {
+  font-family: 'Noto Sans', sans-serif;
   text-align: center;
+  color: #EEE;
+}
+h1{
+  background-color: rgb(20, 20, 20);
+
+  margin: 0;
+  margin-bottom: 5vh;
+  padding: 1.5rem;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+form {
+  background-color:rgb(20, 20, 20);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 50rem;
+  padding: 1rem 0 2rem 0;
+  margin: 2vh auto;
+  border-radius: 5px;
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+input {
+  width: 6rem;
+  height: 1.2rem;
+  margin-right: 1rem;
+  margin-left: .4rem;
 
-.App-link {
-  color: #61dafb;
+  border: 0px;
+  border-radius: 5px;
+
+  font-size: 1.2em;
 }
+form span {
+  margin: .3rem .3rem 0 .3rem;
+  cursor: pointer;
+}
+form span:hover {
+  color:rgb(204, 0, 255);
+}
+.list {
+  background-color: rgb(80, 80, 80);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: -4.5vh auto 4.5vh auto;
+  padding-bottom: 1.5vh;
+  width: 50rem;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.product {
+  background-color: rgb(38, 0, 48);
+  border-radius: 1rem;
+  
+  flex: 0 0 auto;
+  width: 13rem;
+  padding: .2rem;
+  margin: .2rem;
+  margin-top: 2vh;
+}
+.product-info {
+  text-transform:uppercase;
+  margin: 0.5rem;
+}
+.edit-button, .delete-button {
+  padding: .1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: .3rem;
+  margin-top: 1rem;
+}
+.delete-button {
+  background-color:rgb(255, 90, 30);
+}
+.delete-button:hover {
+  background-color: crimson;
+}
+.edit-button {
+  background-color: cornflowerblue;
+}
+.edit-button:hover {
+  background-color: rgb(86, 86, 247);
+}
+h1 span {
+  color: rgb(204, 0, 255);
 }
