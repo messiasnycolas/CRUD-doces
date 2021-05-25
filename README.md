@@ -37,4 +37,11 @@
  - Exibir mensagem de aviso caso não existam registros; 
  - Bugfix: último elemento não é apagado visualmente, mas desaparece ao recarregar.
 
- 
+## Vd3:
+ - Implementada barra de pesquisa;
+ - Implementada caixinha com mensagens de feedback;
+ - Novas cores: branding e estilização temática;
+ - Corrigidos bugs de nomes que quebravam o layout e requisições passando vazias.
+
+### to-do:
+ - Bugfix: último elemento não é apagado visualmente, mas desaparece ao recarregar.
