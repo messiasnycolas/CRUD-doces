@@ -1,6 +1,8 @@
 # CRUD-doces
 
-![Print](http://prntscr.com/13gb33r)
+![Print](https://i.imgur.com/NPGPpVZ.png)
+
+&nbsp;
 
 ### O presente projeto tem como objetivo construir uma API CRUD utilizando Node.js, o framework Express e  o banco de dados não-relacional Google Firestore. A API é consumida e os dados são moldados ao usuário via interface construída em React, exibindo e permitindo editar e apagar produtos, além de gravar novos.
 
@@ -47,7 +49,7 @@
 ***
 ## **Vd1:**
 * Backend pronto;
-* Preparado o React, com create-react-app.
+* Preparado o React, com `create-react-app`.
 
 &nbsp;
 
